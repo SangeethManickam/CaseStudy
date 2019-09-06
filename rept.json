@@ -1,0 +1,534 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T09:17:54.769Z",
+        "line": 3,
+        "name": "Register",
+        "description": "",
+        "id": "register-to-testmeapp;register",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37595648800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the TestMeApp to Register",
+            "match": {
+              "location": "cs1.open_the_TestMeApp_to_Register()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 64932592000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click SignUp button",
+            "match": {
+              "location": "cs1.user_click_SignUp_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 252482100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the username \"Sangeethhhqqqq\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sangeethhhqqqq\"",
+                  "offset": 19
+                }
+              ],
+              "location": "cs1.enter_the_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 287177700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the Firstname \"Sangeeth\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sangeeth\"",
+                  "offset": 20
+                }
+              ],
+              "location": "cs1.enter_the_Firstname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153722500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter the Lastname \"Manickam\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manickam\"",
+                  "offset": 19
+                }
+              ],
+              "location": "cs1.enter_the_Lastname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 247340600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter the Password \"Sangeeth1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sangeeth1234\"",
+                  "offset": 19
+                }
+              ],
+              "location": "cs1.enter_the_Password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 231273800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter the ConfrimPassword \"Sangeeth1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sangeeth1234\"",
+                  "offset": 26
+                }
+              ],
+              "location": "cs1.enter_the_ConfrimPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222706200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Select the Gender",
+            "match": {
+              "location": "cs1.select_the_Gender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 444275600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter the Email \"jmsangeeth@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jmsangeeth@gmail.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "cs1.enter_the_Email(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 230715400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Enter the Mobile Number \"9626927377\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9626927377\"",
+                  "offset": 24
+                }
+              ],
+              "location": "cs1.enter_the_Mobile_Number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1309835400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter the DOB \"03/28/1998\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"03/28/1998\"",
+                  "offset": 14
+                }
+              ],
+              "location": "cs1.enter_the_DOB(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 237246000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter the Address \"Rasipuram\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rasipuram\"",
+                  "offset": 18
+                }
+              ],
+              "location": "cs1.enter_the_Address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152485400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Select the Security Question",
+            "match": {
+              "location": "cs1.select_the_Security_Question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 268916800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Enter the Answer \"Rasipuram\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rasipuram\"",
+                  "offset": 17
+                }
+              ],
+              "location": "cs1.enter_the_Answer(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 514725500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click the register button",
+            "match": {
+              "location": "cs1.user_click_the_register_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register to Testmeapp",
+    "description": "This scenario is to register",
+    "id": "register-to-testmeapp",
+    "keyword": "Feature",
+    "uri": "classpath:Sangeeth/CaseStudy_Cucumber/cs1.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T09:19:41.888Z",
+        "line": 13,
+        "name": "Login to TestMeApp",
+        "description": "",
+        "id": "login;login-to-testmeapp;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26606090600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open the TestMeApp",
+            "match": {
+              "location": "cs2.user_open_the_TestMeApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9158148200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click the signin button",
+            "match": {
+              "location": "cs2.user_click_the_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 183332200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the \"Alex\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Alex\"",
+                  "offset": 10
+                }
+              ],
+              "location": "cs2.enter_the(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 173433500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter password the \"Alex@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Alex@123\"",
+                  "offset": 19
+                }
+              ],
+              "location": "cs2.enter_password_the(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 359629800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click the signin button",
+            "match": {
+              "location": "cs2.click_the_signin_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:Sangeeth/CaseStudy_Cucumber/cs2.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T09:20:18.372Z",
+        "line": 2,
+        "name": "",
+        "description": "",
+        "id": "order-headphone;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23567306600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User opens the TestMeApp",
+            "match": {
+              "location": "cs3.user_opens_the_TestMeApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 164158900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user search for the product \"Head\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Head\"",
+                  "offset": 28
+                }
+              ],
+              "location": "cs3.user_search_for_the_product(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Select the product headphones",
+            "match": {
+              "location": "cs3.select_the_product_headphones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 515167800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click FindDetails",
+            "match": {
+              "location": "cs3.click_FindDetails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4802913800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Add the product to the Cart",
+            "match": {
+              "location": "cs3.add_the_product_to_the_Cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Order Headphone",
+    "description": "",
+    "id": "order-headphone",
+    "keyword": "Feature",
+    "uri": "classpath:Sangeeth/CaseStudy_Cucumber/cs3.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T09:20:47.425Z",
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "casestdy-4;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20051504800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User opens TestMeApp",
+            "match": {
+              "location": "cs4.user_opens_TestMeApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 682420500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user search for product \"Head\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Head\"",
+                  "offset": 24
+                }
+              ],
+              "location": "cs4.user_search_for_product(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2208844600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks the search button",
+            "match": {
+              "location": "cs4.user_clicks_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6367934200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User add the product to the cart",
+            "match": {
+              "location": "cs4.user_add_the_product_to_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37626900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User checks whether it directs to the login page",
+            "match": {
+              "location": "cs4.user_checks_whether_it_directs_to_the_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "caseStdy 4",
+    "description": "",
+    "id": "casestdy-4",
+    "keyword": "Feature",
+    "uri": "classpath:Sangeeth/CaseStudy_Cucumber/cs4.feature",
+    "tags": []
+  }
+]
